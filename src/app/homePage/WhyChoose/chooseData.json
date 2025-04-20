@@ -1,0 +1,33 @@
+[
+    {
+      "title": "No customer data",
+      "description": "Nym doesn't need any of your personal info to create an account: no name, no email, no location. Simply log in with an anonymous access code.",
+      "icon": "/icons/identity12.png"
+    },
+    {
+      "title": "Anonymous payments",
+      "description": "All NymVPN payment information is unlinkable to your use of the app thanks to zero-knowledge proofs.",
+      "icon": "/icons/anonPay.png"
+    },
+    {
+      "title": "Crypto-friendly",
+      "description": "Pay with complete anonymity with crypto like Monero and Zcash. Help support a Web3 network of independent operators with the NYM token.",
+      "icon": "/icons/currency-exchange.png"
+    },
+    {
+      "title": "Can't log design",
+      "description": "Other VPNs promise not to log your data, but they still can. NymVPN is designed differently: we can't log your traffic so your data stays secure.",
+      "icon": "/icons/logData.png"
+    },
+    {
+      "title": "Metadata protection",
+      "description": "NymVPN not only encrypts your data but also protects your metadata so you have the comprehensive online security you need.",
+      "icon": "/icons/encrypted.png"
+    },
+    {
+      "title": "No sneaky software",
+      "description": "Other VPNs keep their code private, allowing them to sneak in adware, tracking software, and even malware. All Nym code is open source.",
+      "icon": "/icons/fixesData.png"
+    }
+  ]
+  

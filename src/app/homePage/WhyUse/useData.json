@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Block trackers and malware",
+      "description": "Prevent corporations, authorities, and criminals from collecting data about who you are and what you do online.",
+      "icon": "/icons/Track_And_Malware.png"
+    },
+    {
+      "title": "Hide your IP address",
+      "description": "Stop sites ands trackers from identifying you and your device",
+      "icon": "/icons/Hide_IP.png"
+    },
+    {
+      "title": "Zero Traffic Logs",
+      "description": "BraveVPN does not log any traffic, so even if someone would ask us for this information, we have nothing to give!",
+      "icon": "/icons/Prices.png"
+    },
+    {
+      "title": "Access blocked sites and apps",
+      "description": "Access content blocked in your location such as news, movies, and sports.",
+      "icon": "/icons/Restricted_Content.png"
+    },
+    {
+      "title": "256-Bit AES Encryption",
+      "description": "We use advanced encryption to protect your data from governments and other unwanted prying eyes!",
+      "icon": "/icons/Identity.png"
+    },
+    {
+      "title": "Money Back Guarantee",
+      "description": "We have a 3 days extremely fair Money Back Guarantee! Simply cancel your subscription and get a refund!",
+      "icon": "/icons/Crypto_transfers.png"
+    }
+  ]
+  

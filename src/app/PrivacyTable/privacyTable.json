@@ -1,0 +1,63 @@
+[
+    {
+      "feature": "No email required",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": true
+    },
+    {
+      "feature": "No personal information required",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": true
+    },
+    {
+      "feature": "Anonymous payments for all payment methods",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": null
+    },
+    {
+      "feature": "Pay in crypto",
+      "nymvpn": true,
+      "mostVpns": true,
+      "tor": null
+    },
+    {
+      "feature": "Censorship resistance",
+      "nymvpn": true,
+      "mostVpns": "*",
+      "tor": true
+    },
+    {
+      "feature": "Mixnet technology",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": null
+    },
+    {
+      "feature": "Decentralized network of independent operators",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": true
+    },
+    {
+      "feature": "Can't log design",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": true
+    },
+    {
+      "feature": "Choose your servers",
+      "nymvpn": true,
+      "mostVpns": true,
+      "tor": true
+    },
+    {
+      "feature": "Open source",
+      "nymvpn": true,
+      "mostVpns": false,
+      "tor": true
+    }
+  ]
+  

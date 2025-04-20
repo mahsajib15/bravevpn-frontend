@@ -1,0 +1,27 @@
+[
+    {
+      "question": "How is BraveVPN different than other VPNs?",
+      "answer": "BraveVPN is fundamentally different than all VPNs on the market in that it can provide genuine anonymity for users. Almost all VPNs are centralized, which means they are capable of logging user traffic records and terminal info related to network surveillance and data leaks. NymVPN is built on a zero-knowledge network that’s point-to-point in the decentralized network itself that can link a user to what they do online. And to combat AI-powered network surveillance, NymVPN deploys noise to make traffic patterns untraceable."
+    },
+    {
+      "question": "What is a decentralized VPN like BraveVPN?",
+      "answer": "A VPN functions as a proxy for your connection with the public web: all your traffic flows through server(s) (or hops) by the VPN company before accessing a web connection. But most VPNs are centralized insofar as your traffic passes through a single server where it remains vulnerable. A truly decentralized VPN requires a minimum of 2 intermediary servers, but also that these servers are independent of one another (i.e., not controlled and operated by the same company). With NymVPN, users have a choice between a decentralized 2-hop mode for faster connections and a highly anonymous 5-hop Noise Generating Network. Choose the level of privacy you need."
+    },
+    {
+      "question": "Why choose a paid VPN over a free one?",
+      "answer": "The large majority of free VPNs do not protect users privacy and often are designed to undermine it. The companies offering free VPN services make their money at the expense of users, including selling metadata records to third parties, inserting advertising into web traffic, or allowing third parties to install cookie trackers on the software of users. This is the opposite of being private and protected. Choosing a paid VPN can help ensure the company respects its clients’ privacy, but choosing a paid decentralized VPN takes trust out of the equation. With Nym's zero-knowledge network, no meaningful traffic logs can be kept that would link you to what you do online. With NymVPN, anonymity online is truly possible."
+    },
+    {
+      "question": "Are VPNs legal?",
+      "answer": "VPNs are perfectly legal in most countries. A VPN is a tool to protect our data and personal information online against many different threats, such as surveillance and cyber attacks while using public WiFi networks. However, the use of some VPNs might be prohibited by certain governments enforcing censorship measures. NymVPN is developing censorship resistance technology that will allow everyone to access the information they need."
+    },
+    {
+      "question": "Are VPNs safe?",
+      "answer": "The large majority of VPNs on the market, even paid versions, can put our data at risk. This is because they are largely centralized services which are vulnerable to network surveillance, data leaks, cyber attacks, and government overreach. Choosing a decentralized VPN can eliminate many of these risks. A mixnet VPN like NymVPN with added noise is the safest choice when it comes to combatting surveillance."
+    },
+    {
+      "question": "Can I use a VPN while traveling internationally?",
+      "answer": "Yes, you can use a VPN anywhere in the world while traveling. They are a great way for accessing information and services in locations of your choice worldwide. Keep in mind that certain countries with authoritarian censorship laws may restrict the use of VPNs while in their territories and using national ISPs. NymVPN is developing censorship resistance technologies so that you can use the app wherever you are without undue restrictions."
+    }
+  ]
+  
