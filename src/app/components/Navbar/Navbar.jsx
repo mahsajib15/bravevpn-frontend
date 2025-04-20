@@ -16,20 +16,20 @@ export default function Navbar() {
     {
       name: "Why BraveVPN",
       path: "/why-vpn",
+      dropdown: [
+        {
+          label: "Learn More About BraveVPN",
+          path: "/why-vpn",
+        },
+      ],
     },
     {
       name: "Pricing",
       path: "/pricing",
       dropdown: [
         {
-          label: "Our Partners",
-          details: "Who we work with",
-          path: "/company-list/partners",
-        },
-        {
-          label: "About Us",
-          details: "The Brave story",
-          path: "/company-list/about",
+          label: "Find Your Plan",
+          path: "/pricing",
         },
       ],
     },
@@ -54,12 +54,12 @@ export default function Navbar() {
       path: "/resources",
       dropdown: [
         {
-          label: "Nym Docs",
+          label: "BraveVPN Docs",
           details: "Official documentation",
           path: "/resources/docs",
         },
         {
-          label: "Nym Whitepaper",
+          label: "BraveVPN Whitepaper",
           details: "Technical breakdown",
           path: "/resources/whitepaper",
         },
@@ -90,7 +90,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 text-white relative">
+        <nav className="hidden lg:flex space-x-6 text-white relative">
           {navItems.map((item, idx) => (
             <div
               key={idx}
@@ -106,11 +106,15 @@ export default function Navbar() {
               </div>
 
               {item.dropdown && activeDropdown === item.name && (
-                <div className="absolute left-1/2 transform -translate-x-1/2 mt-4 bg-white text-black shadow-2xl rounded-md w-[600px] p-6 grid grid-cols-2 gap-4 z-50">
+                <div
+                  className="absolute left-1/2 transform -translate-x-1/2 mt-4 bg-white text-black shadow-2xl rounded-md w-[300px] sm:w-[400px] p-4 z-50"
+                  onMouseEnter={() => setActiveDropdown(item.name)}
+                  onMouseLeave={() => setActiveDropdown(null)}
+                >
                   <div className="space-y-2">
                     {item.dropdown.map((sub, i) => (
                       <Link key={i} href={sub.path}>
-                        <div className="hover:bg-gray-100 px-3 py-2 rounded transition">
+                        <div className="hover:bg-gray-100 px-3 py-2 rounded transition cursor-pointer">
                           <p className="font-semibold">{sub.label}</p>
                           <p className="text-sm text-gray-500">{sub.details}</p>
                         </div>
@@ -126,14 +130,14 @@ export default function Navbar() {
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
           <Link
-            href="#"
-            className="hidden md:block bg-[#14e76f] px-4 py-2 rounded-full hover:bg-green-600 text-black"
+            href="/pricing"
+            className="hidden lg:block bg-[#14e76f] px-4 py-2 rounded-full hover:bg-green-600 text-black"
           >
             Get BraveVPN
           </Link>
           <Link
             href="/login"
-            className="text-base text-white hover:underline hidden md:block"
+            className="text-base text-white hover:underline hidden lg:block"
           >
             Login
           </Link>
@@ -141,7 +145,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden bg-green-500 p-2 rounded-full"
+            className="lg:hidden bg-green-500 p-2 rounded-full"
           >
             {menuOpen ? (
               <X className="w-6 h-6 text-black" />
@@ -154,9 +158,13 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 left-0 h-full w-full bg-white text-black px-6 py-10 transform transition-transform duration-300 z-50 ${
+        className={`fixed top-0 left-0 h-full w-full max-w-full bg-white text-black px-6 py-6 transform transition-transform z-50 ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
+        style={{
+          overflowY: "auto",
+          WebkitOverflowScrolling: "touch",
+        }}
       >
         <div className="flex justify-between items-center mb-6">
           <div className="text-2xl font-bold">BraveVPN</div>
@@ -215,7 +223,7 @@ export default function Navbar() {
         </ul>
       </div>
 
-      {/* Optional backdrop for mobile menu */}
+      {/* Optional Backdrop */}
       {menuOpen && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 z-40"

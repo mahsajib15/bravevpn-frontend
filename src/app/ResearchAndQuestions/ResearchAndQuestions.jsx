@@ -51,7 +51,7 @@ export default function ResearchAndQuestion() {
 
       {/* FAQ Section */}
       <h2 className="text-center text-xl font-bold mb-6">Frequently Asked Questions</h2>
-      <div className="text-2xl mx-auto">
+      <div className="text-xl font-serif mx-auto">
         {faqData.map((faq, index) => (
           <FAQItem
             key={index}

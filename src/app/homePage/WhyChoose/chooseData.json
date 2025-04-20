@@ -1,10 +1,5 @@
 [
     {
-      "title": "No customer data",
-      "description": "Nym doesn't need any of your personal info to create an account: no name, no email, no location. Simply log in with an anonymous access code.",
-      "icon": "/icons/identity12.png"
-    },
-    {
       "title": "Anonymous payments",
       "description": "All NymVPN payment information is unlinkable to your use of the app thanks to zero-knowledge proofs.",
       "icon": "/icons/anonPay.png"

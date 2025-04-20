@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Decentralized",
+      "description": "Ensures your traffic is truly private and untraceable by routing it through 2 or 5 independent servers.",
+      "icon": "/icons/decentralized.png"
+    },
+    {
+      "title": "Zero-knowledge Network",
+      "description": "BraveVPN's zero-knowledge network means neither Brave nor its operators can link you to what you do online, even if we tried.",
+      "icon": "/icons/noNetwork.png"
+    },
+    {
+      "title": "Noise",
+      "description": "Anti-surveillance techniques that make traffic patterns hard to discover and nearly impossible to track what you do online, even against AI technology.",
+      "icon": "/icons/noise.png"
+    },
+    {
+      "title": "Advanced Encryption",
+      "description": "Choose between multi-layered encryption with either WireGuard or the Brave Noise Generating Mixnet (NGM) for maximal data security.",
+      "icon": "/icons/advancedEncryption.png"
+    },
+    {
+      "title": "Independent Operators",
+      "description": "The Brave network is independently operated by people across the world. Your traffic is never centralized or traceable.",
+      "icon": "/icons/inOperators.png"
+    },
+    {
+      "title": "Unlinkable Payments",
+      "description": "Your payments in fiat currencies or crypto are unlinkable to your usage of BraveVPN thanks to zk-brave anonymous credentials.",
+      "icon": "/icons/unlink.png"
+    }
+  ]

@@ -1,11 +1,9 @@
 import Image from "next/image";
-import Footer from "../components/Footer/Footer";
 
 export default function VpnService() {
   return (
     <div>
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold mb-4">Why BraveVPN</h1>
         <div className="text-white py-20 px-6">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-4xl sm:text-5xl font-extrabold mb-6">
@@ -111,7 +109,6 @@ export default function VpnService() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

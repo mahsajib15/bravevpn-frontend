@@ -3,61 +3,62 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className=" text-white px-6 py-12">
+    <footer className=" text-white px-4 sm:px-6 py-12">
       {/* Newsletter Section */}
+      <hr className="mb-10" />
       <div className="max-w-6xl mx-auto mb-10">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
           <h2 className="text-2xl font-bold mb-4 md:mb-0">BraveVPN</h2>
 
-          <div className="flex justify-center items-center gap-4 mb-10">
+          <div className="flex flex-wrap justify-center items-center gap-4">
             <Image
               width={56}
               height={56}
               src="/icons/facebook.png"
-              className="w-14 bg-white p-2 rounded-4xl cursor-pointer"
-              alt="flag"
+              className="w-14 bg-white p-2 rounded-2xl cursor-pointer"
+              alt="facebook"
             />
             <Image
               width={56}
               height={56}
               src="/icons/instagram.png"
-              className="w-14 bg-white p-2 rounded-4xl cursor-pointer"
-              alt="flag"
+              className="w-14 bg-white p-2 rounded-2xl cursor-pointer"
+              alt="instagram"
             />
             <Image
-            width={56}
-            height={56}
+              width={56}
+              height={56}
               src="/icons/twitter.png"
-              className="w-14 bg-white p-2 rounded-4xl cursor-pointer"
-              alt="flag"
+              className="w-14 bg-white p-2 rounded-2xl cursor-pointer"
+              alt="twitter"
             />
             <Image
               width={56}
               height={56}
               src="/icons/linkedin.png"
-              className="w-14 bg-white p-2 rounded-4xl cursor-pointer"
-              alt="flag"
+              className="w-14 bg-white p-2 rounded-2xl cursor-pointer"
+              alt="linkedin"
             />
             <Image
               width={56}
               height={56}
               src="/icons/discord.png"
-              className="w-14 bg-white p-2 rounded-4xl cursor-pointer"
-              alt="flag"
+              className="w-14 bg-white p-2 rounded-2xl cursor-pointer"
+              alt="discord"
             />
             <Image
               width={56}
               height={56}
               src="/icons/github.png"
-              className="w-14 bg-white p-2 rounded-4xl cursor-pointer"
-              alt="flag"
+              className="w-14 bg-white p-2 rounded-2xl cursor-pointer"
+              alt="github"
             />
           </div>
         </div>
       </div>
 
       {/* Main Footer Links */}
-      <div className="border-t border-gray-600 pt-10 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 text-sm">
+      <div className="border-t border-gray-600 pt-10 max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 text-sm px-4 sm:px-0">
         <div>
           <h3 className="font-bold mb-3">About</h3>
           <ul className="space-y-1">
@@ -111,7 +112,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-sm text-center mt-2 font-bold text-white">
+      <p className="text-sm text-center mt-10 font-bold text-white">
         Copyright © 2018-2025 BraveVPN. ALL RIGHTS RESERVED.
       </p>
     </footer>

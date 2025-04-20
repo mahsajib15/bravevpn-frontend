@@ -1,3 +1,6 @@
+import Link from "next/link";
+import ChooseBraveVpn from "./ChooseBraveVpn";
+
 export default function Pricing() {
   return (
     <div className="container mx-auto">
@@ -8,24 +11,23 @@ export default function Pricing() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
+           
             {/* 1 Month Plan */}
             <div className="bg-[#e0f7fa] text-black p-8 rounded-md shadow-md flex flex-col justify-between">
               <div>
-                <h3 className="text-xl font-semibold mb-2">1 Month Plan</h3>
+                <h3 className="text-xl font-semibold mb-2">Free Trial</h3>
                 <p className="text-3xl font-bold">
-                  $12.99 <span className="text-base font-normal">/ Month</span>
+                  $00 <span className="text-base font-normal">/ 7 Days</span>
                 </p>
                 <span className="text-xs bg-gray-200 px-2 py-1 rounded mt-2 inline-block">
-                  Save ~0% 
+                  No Card Required
                 </span>
                 <p>No Discounts</p>
                 <p className="mt-2 text-sm font-medium">
                   $12.99 for 1 month + tax
                 </p>
 
-                <button className="mt-6 w-full bg-green-400 text-black font-semibold py-3 rounded-full hover:bg-green-500 hover:shadow-sm hover:shadow-amber-400 transition cursor-pointer">
-                  Select plan
-                </button>
+                <Link href="/registration" className="mt-6 w-full bg-green-400 text-black font-semibold py-3 rounded-full hover:bg-green-500 hover:shadow-sm hover:shadow-amber-400 transition cursor-pointer">Select plan</Link>
 
                 <ul className="mt-6 text-sm text-gray-800 space-y-2 text-left">
                   <li>
@@ -139,6 +141,7 @@ export default function Pricing() {
           </div>
         </div>
       </section>
+      <ChooseBraveVpn />
     </div>
   );
 }

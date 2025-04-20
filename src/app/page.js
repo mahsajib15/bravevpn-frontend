@@ -21,7 +21,6 @@ export default function Home() {
         <LevelOfPrivacy />
         <ResearchAndQuestion />
       </div>
-      <Footer />
     </>
   );
 }

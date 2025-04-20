@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -12,15 +11,6 @@ Coming soon
 
         </h4>
         <button className='p-3 bg-green-600 rounded-3xl cursor-pointer font-bold'>Get BraveVPN</button>
-      </div>
-      <div className="md:w-1/2">
-        <Image
-          width={570}
-          height={570}
-          src="/images/image-1.png"
-          alt="image-1"
-          className="w-[570px] h-[570px] rounded-lg"
-        />
       </div>
     </div>
   );
